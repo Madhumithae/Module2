@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body_cont{
+    height: calc(100% - 60px);
+    width: 100%;
+}
+nav{
+    height: 70px;
+    width:100%;
+    display:flex;
+    background-color:#99B898 ;
+
+}
+.heading_left{
+    padding-left: 10px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+.heading_right{
+    padding-top: 20px;
+    padding-right: 10px;
+    height: 60px;
+    width:100%;
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+    font-size: 20px;
+    border: 4px;
+    border-radius: 3px;
+
+}
+
+.heading_right{
+    display: inline;
+    position: relative;
+}
+
+.heading{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    height: calc(100vh - 190px);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_content{
+    margin-top: 50px;
+    width: 350px;
+    height: 250px;
+    background-color: #2A363B;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu_name{
+    width: 200px;
+    height: 40px;
+    background-color: #99B898;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.menu_details{
+    height: 360px;
+    margin-top: 40px;
+    display: flex;
+    padding: 15px;
+    text-indent: 5rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .body_cont {
+        height: auto;
+    }
+
+    .menu {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .menu_content {
+        width: 400px;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .menu_name {
+        width: 100px;
+        height: 20px;
+    }
+
+    .menu_details {
+        height: auto;
+        margin-top: 20px;
+        text-indent: 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .body_cont {
+        height: auto;
+    }
+
+    .menu {
+        height: auto;
+        width: 50%;
+        margin: 0 auto 0;
+        flex-direction: column;
+    }
+
+    .menu_content {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .menu_name {
+        width: 100%;
+        height: 40px;
+    }
+
+    .menu_details {
+        height: fit-content;
+        text-indent: 5rem;
+    }
+}
