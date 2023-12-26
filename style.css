@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
     margin: 0;
@@ -8,40 +8,6 @@
 .body_cont{
     height: calc(100% - 60px);
     width: 100%;
-}
-nav{
-    height: 70px;
-    width:100%;
-    display:flex;
-    background-color:#99B898 ;
-
-}
-.heading_left{
-    padding-left: 10px;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-
-
-}
-.heading_right{
-    padding-top: 20px;
-    padding-right: 10px;
-    height: 60px;
-    width:100%;
-    display: flex;
-    list-style: none;
-    justify-content:flex-end;
-    font-size: 20px;
-    border: 4px;
-    border-radius: 3px;
-
-}
-
-.heading_right{
-    display: inline;
-    position: relative;
 }
 
 .heading{
